@@ -1,0 +1,37 @@
+{
+    "name": "nextjs-redux-template",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+        "dev": "next dev",
+        "build": "next build",
+        "start": "next start",
+        "lint": "next lint"
+    },
+    "dependencies": {
+        "@reduxjs/toolkit": "^1.9.2",
+        "axios": "^1.7.7",
+        "lodash": "^4.17.21",
+        "next": "14.2.4",
+        "react": "^18",
+        "react-dom": "^18",
+        "react-redux": "^8.0.2"
+    },
+    "devDependencies": {
+        "cross-env": "^7.0.3",
+        "postcss": "^8",
+        "tailwindcss": "^3.4.1"
+    },
+    "eslintConfig": {
+        "extends": [
+            "next/core-web-vitals"
+        ],
+        "rules": {
+            "no-unused-vars": "off",
+            "react-hooks/exhaustive-deps": "off",
+            "eqeqeq": "off",
+            "default-case": "off",
+            "no-dupe-keys": "off"
+        }
+    }
+}
